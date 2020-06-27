@@ -1,0 +1,1353 @@
+<html>
+<div id="viztable">
+<input class="search" placeholder="Search" />
+<br>
+<button class="sort" data-sort="idx">Sort by idx</button>
+<button class="sort" data-sort="NumPhrases">Sort by Num Phrases</button>
+<button class="sort" data-sort="Phrase">Sort by Phrase</button>
+<button class="sort" data-sort="FinalScores">Sort by Final Score</button>
+<p>
+<table>
+<thead>
+<tr>
+<td  width=2% class="idx">idx</td>
+<td  width=3% class="Video">Video</td>
+<td  width=2% class="NumPhrases">Num Phrases</td>
+<td  width=3% class="Phrase">Phrase</td>
+<td  width=30% class="Table_Score">Scores</td>
+<td  width=30% class="Table_Path">Path</td>
+<td  width=28% class="Table_Path_GT">Path GT</td>
+<td  width=2% class="FinalScores">Final Score</td>
+</tr>
+</thead>
+<tbody class="list">
+<tr>
+<td  class="idx">
+0</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_and_place_simple-SprayBottle-None-Cabinet-413/trial_T20190907_114903_411834/video.mp4" target=“_blank”>video-0</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn left; walk over to the sinks at
+the end of the room</td>
+<td  class="Table_Score">
+<img src="img_0_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_0_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_0_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+1</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_cool_then_place_in_recep-Pot-None-DiningTable-21/trial_T20190909_004531_429065/video.mp4" target=“_blank”>video-1</a></td>
+<td  class="NumPhrases">
+4</td>
+<td  class="Phrase">
+turn left; go around the table; turn slight left again; go forward to the oven</td>
+<td  class="Table_Score">
+<img src="img_1_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_1_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_1_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.58</td>
+</tr>
+<tr>
+<td  class="idx">
+2</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_cool_then_place_in_recep-Pot-None-DiningTable-21/trial_T20190909_004531_429065/video.mp4" target=“_blank”>video-2</a></td>
+<td  class="NumPhrases">
+4</td>
+<td  class="Phrase">
+turn around to the right; go forward; turn left; face the fridge</td>
+<td  class="Table_Score">
+<img src="img_2_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_2_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_2_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.55</td>
+</tr>
+<tr>
+<td  class="idx">
+3</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_cool_then_place_in_recep-Pot-None-DiningTable-21/trial_T20190909_004531_429065/video.mp4" target=“_blank”>video-3</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+place the frying pan in
+the fridge; take it out</td>
+<td  class="Table_Score">
+<img src="img_3_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_3_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_3_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.83</td>
+</tr>
+<tr>
+<td  class="idx">
+4</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_cool_then_place_in_recep-Pot-None-DiningTable-21/trial_T20190909_004531_429065/video.mp4" target=“_blank”>video-4</a></td>
+<td  class="NumPhrases">
+3</td>
+<td  class="Phrase">
+turn to the left; turn left again to turn
+completely around; walk forward to the table</td>
+<td  class="Table_Score">
+<img src="img_4_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_4_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_4_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.69</td>
+</tr>
+<tr>
+<td  class="idx">
+5</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_heat_then_place_in_recep-Mug-None-SideTable-21/trial_T20190909_090729_088825/video.mp4" target=“_blank”>video-5</a></td>
+<td  class="NumPhrases">
+3</td>
+<td  class="Phrase">
+turn around; walk to the coffee machine; look at it</td>
+<td  class="Table_Score">
+<img src="img_5_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_5_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_5_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.70</td>
+</tr>
+<tr>
+<td  class="idx">
+6</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_heat_then_place_in_recep-Mug-None-SideTable-21/trial_T20190909_090729_088825/video.mp4" target=“_blank”>video-6</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn around; go to the table with the
+microwave in the corner of
+the room</td>
+<td  class="Table_Score">
+<img src="img_6_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_6_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_6_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+7</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_heat_then_place_in_recep-Mug-None-SideTable-21/trial_T20190909_090729_088825/video.mp4" target=“_blank”>video-7</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+microwave the cup; take it back out of the
+microwave</td>
+<td  class="Table_Score">
+<img src="img_7_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_7_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_7_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.82</td>
+</tr>
+<tr>
+<td  class="idx">
+8</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_clean_then_place_in_recep-SoapBar-None-Toilet-410/trial_T20190906_201106_979461/video.mp4" target=“_blank”>video-8</a></td>
+<td  class="NumPhrases">
+4</td>
+<td  class="Phrase">
+place bar soap; turn on the water; turn it off; pick up soap again</td>
+<td  class="Table_Score">
+<img src="img_8_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_8_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_8_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.49</td>
+</tr>
+<tr>
+<td  class="idx">
+9</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_cool_then_place_in_recep-Plate-None-Cabinet-27/trial_T20190906_173120_350651/video.mp4" target=“_blank”>video-9</a></td>
+<td  class="NumPhrases">
+3</td>
+<td  class="Phrase">
+head to the fridge on your
+left; turn right; walk to the white table</td>
+<td  class="Table_Score">
+<img src="img_9_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_9_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_9_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.71</td>
+</tr>
+<tr>
+<td  class="idx">
+10</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_cool_then_place_in_recep-Plate-None-Cabinet-27/trial_T20190906_173120_350651/video.mp4" target=“_blank”>video-10</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn around; walk to the fridge</td>
+<td  class="Table_Score">
+<img src="img_10_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_10_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_10_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+11</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_cool_then_place_in_recep-Plate-None-Cabinet-27/trial_T20190906_173120_350651/video.mp4" target=“_blank”>video-11</a></td>
+<td  class="NumPhrases">
+6</td>
+<td  class="Phrase">
+open the fridge; place the plate on the
+middle shelf; close the fridge; open the fridge; pick up the plate that is
+on the middle shelf; close the door</td>
+<td  class="Table_Score">
+<img src="img_11_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_11_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_11_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.34</td>
+</tr>
+<tr>
+<td  class="idx">
+12</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_cool_then_place_in_recep-Plate-None-Cabinet-27/trial_T20190906_173120_350651/video.mp4" target=“_blank”>video-12</a></td>
+<td  class="NumPhrases">
+3</td>
+<td  class="Phrase">
+open the right hand
+cabinet below the sink; place the plate inside; close the cabinet door</td>
+<td  class="Table_Score">
+<img src="img_12_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_12_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_12_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.67</td>
+</tr>
+<tr>
+<td  class="idx">
+13</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_and_place_with_movable_recep-Pencil-Bowl-Dresser-311/trial_T20190909_002301_857761/video.mp4" target=“_blank”>video-13</a></td>
+<td  class="NumPhrases">
+4</td>
+<td  class="Phrase">
+turn right; walk to the wall; turn left; walk to the small round
+end table</td>
+<td  class="Table_Score">
+<img src="img_13_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_13_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_13_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.59</td>
+</tr>
+<tr>
+<td  class="idx">
+14</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_and_place_with_movable_recep-Pencil-Bowl-Dresser-311/trial_T20190909_002301_857761/video.mp4" target=“_blank”>video-14</a></td>
+<td  class="NumPhrases">
+6</td>
+<td  class="Phrase">
+turn completely around; take a step; turn right; walk until you are in
+front of the small white
+tv stand; turn right; face the tv stand</td>
+<td  class="Table_Score">
+<img src="img_14_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_14_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_14_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.42</td>
+</tr>
+<tr>
+<td  class="idx">
+15</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_heat_then_place_in_recep-Mug-None-Cabinet-3/trial_T20190909_014639_335717/video.mp4" target=“_blank”>video-15</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn around; walk over to the coffee
+maker on the kitchen
+counter to the left</td>
+<td  class="Table_Score">
+<img src="img_15_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_15_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_15_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+16</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_heat_then_place_in_recep-Mug-None-Cabinet-3/trial_T20190909_014639_335717/video.mp4" target=“_blank”>video-16</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn left; walk over to the microwave
+at the end of the room on
+the right</td>
+<td  class="Table_Score">
+<img src="img_16_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_16_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_16_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+17</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_heat_then_place_in_recep-Mug-None-Cabinet-3/trial_T20190909_014639_335717/video.mp4" target=“_blank”>video-17</a></td>
+<td  class="NumPhrases">
+3</td>
+<td  class="Phrase">
+place the cup inside the
+microwave; let the microwave
+microwave the cup for a
+bit; take it back out</td>
+<td  class="Table_Score">
+<img src="img_17_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_17_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_17_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.66</td>
+</tr>
+<tr>
+<td  class="idx">
+18</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_heat_then_place_in_recep-Mug-None-Cabinet-3/trial_T20190909_014639_335717/video.mp4" target=“_blank”>video-18</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn around; walk over to the kitchen
+counter to the right of
+the sink at the end of the
+room</td>
+<td  class="Table_Score">
+<img src="img_18_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_18_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_18_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+19</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-427/trial_T20190906_234735_610018/video.mp4" target=“_blank”>video-19</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn around; walk to the bathtub</td>
+<td  class="Table_Score">
+<img src="img_19_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_19_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_19_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+20</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-427/trial_T20190906_234735_610018/video.mp4" target=“_blank”>video-20</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn around; walk to the sink on your
+right</td>
+<td  class="Table_Score">
+<img src="img_20_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_20_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_20_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+21</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-427/trial_T20190906_234735_610018/video.mp4" target=“_blank”>video-21</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+clean the sponge in the
+sink; pick it up again</td>
+<td  class="Table_Score">
+<img src="img_21_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_21_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_21_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.79</td>
+</tr>
+<tr>
+<td  class="idx">
+22</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-427/trial_T20190906_234735_610018/video.mp4" target=“_blank”>video-22</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn around; walk back to the bathtub</td>
+<td  class="Table_Score">
+<img src="img_22_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_22_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_22_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+23</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_clean_then_place_in_recep-ButterKnife-None-Drawer-30/trial_T20190908_052007_212776/video.mp4" target=“_blank”>video-23</a></td>
+<td  class="NumPhrases">
+3</td>
+<td  class="Phrase">
+turn left; hang a right around the
+counter; walk to the counter ahead
+with the toaster</td>
+<td  class="Table_Score">
+<img src="img_23_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_23_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_23_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.71</td>
+</tr>
+<tr>
+<td  class="idx">
+24</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_clean_then_place_in_recep-ButterKnife-None-Drawer-30/trial_T20190908_052007_212776/video.mp4" target=“_blank”>video-24</a></td>
+<td  class="NumPhrases">
+3</td>
+<td  class="Phrase">
+turn left; hang a left at the stove; walk to the sink ahead</td>
+<td  class="Table_Score">
+<img src="img_24_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_24_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_24_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.69</td>
+</tr>
+<tr>
+<td  class="idx">
+25</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_clean_then_place_in_recep-ButterKnife-None-Drawer-30/trial_T20190908_052007_212776/video.mp4" target=“_blank”>video-25</a></td>
+<td  class="NumPhrases">
+3</td>
+<td  class="Phrase">
+put the knife inside the
+sink to the right of the
+spoon; rinse it for a few seconds; pick it back up</td>
+<td  class="Table_Score">
+<img src="img_25_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_25_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_25_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.67</td>
+</tr>
+<tr>
+<td  class="idx">
+26</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_clean_then_place_in_recep-ButterKnife-None-Drawer-30/trial_T20190908_052007_212776/video.mp4" target=“_blank”>video-26</a></td>
+<td  class="NumPhrases">
+3</td>
+<td  class="Phrase">
+turn around; walk towards the fridge; turn around again to face
+the cabinets under the
+counter to the right of
+the sink</td>
+<td  class="Table_Score">
+<img src="img_26_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_26_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_26_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.69</td>
+</tr>
+<tr>
+<td  class="idx">
+27</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_clean_then_place_in_recep-ButterKnife-None-Drawer-30/trial_T20190908_052007_212776/video.mp4" target=“_blank”>video-27</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+put the rinsed knife
+inside the far right
+drawer; close the drawer</td>
+<td  class="Table_Score">
+<img src="img_27_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_27_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_27_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.79</td>
+</tr>
+<tr>
+<td  class="idx">
+28</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_and_place_with_movable_recep-Pen-Mug-Dresser-311/trial_T20190909_154212_097094/video.mp4" target=“_blank”>video-28</a></td>
+<td  class="NumPhrases">
+4</td>
+<td  class="Phrase">
+turn left; head to tv; turn left; head to the side of the
+long brown table on the
+right</td>
+<td  class="Table_Score">
+<img src="img_28_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_28_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_28_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.57</td>
+</tr>
+<tr>
+<td  class="idx">
+29</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_and_place_with_movable_recep-Pen-Mug-Dresser-311/trial_T20190909_154212_097094/video.mp4" target=“_blank”>video-29</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn around; bring the mug with pen to
+the tv on the left</td>
+<td  class="Table_Score">
+<img src="img_29_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_29_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_29_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+30</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_cool_then_place_in_recep-Cup-None-SideTable-21/trial_T20190906_192823_237997/video.mp4" target=“_blank”>video-30</a></td>
+<td  class="NumPhrases">
+4</td>
+<td  class="Phrase">
+turn left; move towards the
+refrigerator; turn left; move to the table with the
+toaster on top</td>
+<td  class="Table_Score">
+<img src="img_30_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_30_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_30_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.57</td>
+</tr>
+<tr>
+<td  class="idx">
+31</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_cool_then_place_in_recep-Cup-None-SideTable-21/trial_T20190906_192823_237997/video.mp4" target=“_blank”>video-31</a></td>
+<td  class="NumPhrases">
+3</td>
+<td  class="Phrase">
+turn around; move to the refrigerator; turn around to face the
+door of the refrigerator</td>
+<td  class="Table_Score">
+<img src="img_31_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_31_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_31_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.71</td>
+</tr>
+<tr>
+<td  class="idx">
+32</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_cool_then_place_in_recep-Cup-None-SideTable-21/trial_T20190906_192823_237997/video.mp4" target=“_blank”>video-32</a></td>
+<td  class="NumPhrases">
+6</td>
+<td  class="Phrase">
+open the refrigerator; place the cup on the top
+shelf to the left of the
+lettuce; chill the cup; open the refrigerator; pick up the cup from the
+top shelf; close the refrigerator</td>
+<td  class="Table_Score">
+<img src="img_32_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_32_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_32_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.34</td>
+</tr>
+<tr>
+<td  class="idx">
+33</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_cool_then_place_in_recep-Cup-None-SideTable-21/trial_T20190906_192823_237997/video.mp4" target=“_blank”>video-33</a></td>
+<td  class="NumPhrases">
+3</td>
+<td  class="Phrase">
+turn to the right; move past the sink to the
+table next to the oven; turn towards the small
+table in between the
+garbage bag</td>
+<td  class="Table_Score">
+<img src="img_33_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_33_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_33_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.69</td>
+</tr>
+<tr>
+<td  class="idx">
+34</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_heat_then_place_in_recep-Tomato-None-DiningTable-16/trial_T20190907_201243_698086/video.mp4" target=“_blank”>video-34</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn around; cross the room to stand in
+front of the white table</td>
+<td  class="Table_Score">
+<img src="img_34_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_34_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_34_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+35</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_heat_then_place_in_recep-Tomato-None-DiningTable-16/trial_T20190907_201243_698086/video.mp4" target=“_blank”>video-35</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+go left to cross the room; turn left again to face
+the microwave</td>
+<td  class="Table_Score">
+<img src="img_35_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_35_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_35_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+36</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_heat_then_place_in_recep-Tomato-None-DiningTable-16/trial_T20190907_201243_698086/video.mp4" target=“_blank”>video-36</a></td>
+<td  class="NumPhrases">
+4</td>
+<td  class="Phrase">
+put the tomato into the
+microwave; turn it on; take the tomato out; shut the door</td>
+<td  class="Table_Score">
+<img src="img_36_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_36_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_36_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.50</td>
+</tr>
+<tr>
+<td  class="idx">
+37</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_heat_then_place_in_recep-Tomato-None-DiningTable-16/trial_T20190907_201243_698086/video.mp4" target=“_blank”>video-37</a></td>
+<td  class="NumPhrases">
+3</td>
+<td  class="Phrase">
+turn around; cross the room; stand in front of the
+white table</td>
+<td  class="Table_Score">
+<img src="img_37_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_37_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_37_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.69</td>
+</tr>
+<tr>
+<td  class="idx">
+38</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_two_obj_and_place-Vase-None-Desk-204/trial_T20190906_181531_703961/video.mp4" target=“_blank”>video-38</a></td>
+<td  class="NumPhrases">
+3</td>
+<td  class="Phrase">
+turn around; walk towards the desk; walk around to the front
+of the desk</td>
+<td  class="Table_Score">
+<img src="img_38_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_38_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_38_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.69</td>
+</tr>
+<tr>
+<td  class="idx">
+39</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_two_obj_and_place-Vase-None-Desk-204/trial_T20190906_181531_703961/video.mp4" target=“_blank”>video-39</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn around; walk to the stand with the
+tv on it</td>
+<td  class="Table_Score">
+<img src="img_39_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_39_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_39_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+40</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_two_obj_and_place-Vase-None-Desk-204/trial_T20190906_181531_703961/video.mp4" target=“_blank”>video-40</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn around; walk to the desk</td>
+<td  class="Table_Score">
+<img src="img_40_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_40_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_40_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+41</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_cool_then_place_in_recep-AppleSliced-None-SideTable-21/trial_T20190907_013001_399963/video.mp4" target=“_blank”>video-41</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn left; head towards the sink on
+your left</td>
+<td  class="Table_Score">
+<img src="img_41_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_41_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_41_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+42</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_cool_then_place_in_recep-AppleSliced-None-SideTable-21/trial_T20190907_013001_399963/video.mp4" target=“_blank”>video-42</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+open the left cabinet
+below the sink; place the knife on the
+plate</td>
+<td  class="Table_Score">
+<img src="img_42_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_42_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_42_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.78</td>
+</tr>
+<tr>
+<td  class="idx">
+43</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_cool_then_place_in_recep-AppleSliced-None-SideTable-21/trial_T20190907_013001_399963/video.mp4" target=“_blank”>video-43</a></td>
+<td  class="NumPhrases">
+4</td>
+<td  class="Phrase">
+open the fridge; place the slice of apple
+in the fridge; let it cool; take it out of the fridge</td>
+<td  class="Table_Score">
+<img src="img_43_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_43_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_43_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.52</td>
+</tr>
+<tr>
+<td  class="idx">
+44</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_cool_then_place_in_recep-AppleSliced-None-SideTable-21/trial_T20190907_013001_399963/video.mp4" target=“_blank”>video-44</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn left; walk towards the small
+black table to your right</td>
+<td  class="Table_Score">
+<img src="img_44_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_44_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_44_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.85</td>
+</tr>
+<tr>
+<td  class="idx">
+45</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_and_place_simple-SoapBottle-None-CounterTop-417/trial_T20190910_112922_368384/video.mp4" target=“_blank”>video-45</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn left; walk to the right sink</td>
+<td  class="Table_Score">
+<img src="img_45_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_45_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_45_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+46</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_and_place_simple-SoapBottle-None-CounterTop-417/trial_T20190910_112922_368384/video.mp4" target=“_blank”>video-46</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+open the bottom left
+cabinet; take out the closest soap
+container</td>
+<td  class="Table_Score">
+<img src="img_46_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_46_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_46_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.87</td>
+</tr>
+<tr>
+<td  class="idx">
+47</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_two_obj_and_place-SprayBottle-None-Cabinet-407/trial_T20190907_144556_144188/video.mp4" target=“_blank”>video-47</a></td>
+<td  class="NumPhrases">
+3</td>
+<td  class="Phrase">
+open the cabinet on the
+left side below the right
+sink; place the blue spray
+bottle in the cabinet; close the door</td>
+<td  class="Table_Score">
+<img src="img_47_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_47_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_47_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.68</td>
+</tr>
+<tr>
+<td  class="idx">
+48</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_two_obj_and_place-SprayBottle-None-Cabinet-407/trial_T20190907_144556_144188/video.mp4" target=“_blank”>video-48</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn around; face the back of the
+toilet</td>
+<td  class="Table_Score">
+<img src="img_48_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_48_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_48_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+49</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_two_obj_and_place-SprayBottle-None-Cabinet-407/trial_T20190907_144556_144188/video.mp4" target=“_blank”>video-49</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn around; face the cabinets below
+the right side sink</td>
+<td  class="Table_Score">
+<img src="img_49_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_49_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_49_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+50</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_two_obj_and_place-SprayBottle-None-Cabinet-407/trial_T20190907_144556_144188/video.mp4" target=“_blank”>video-50</a></td>
+<td  class="NumPhrases">
+3</td>
+<td  class="Phrase">
+open the door on the left
+side; place the blue spray
+bottle to the left of the
+first spray bottle; close the door</td>
+<td  class="Table_Score">
+<img src="img_50_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_50_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_50_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.68</td>
+</tr>
+<tr>
+<td  class="idx">
+51</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_two_obj_and_place-Pan-None-CounterTop-14/trial_T20190907_012519_974044/video.mp4" target=“_blank”>video-51</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn around; walk to the stove on your
+right</td>
+<td  class="Table_Score">
+<img src="img_51_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_51_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_51_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+52</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/look_at_obj_in_light-Pillow-None-DeskLamp-323/trial_T20190908_053153_077977/video.mp4" target=“_blank”>video-52</a></td>
+<td  class="NumPhrases">
+3</td>
+<td  class="Phrase">
+turn right; head to the right side of
+the bed; turn left to face the
+pillow on the bed</td>
+<td  class="Table_Score">
+<img src="img_52_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_52_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_52_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.70</td>
+</tr>
+<tr>
+<td  class="idx">
+53</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/look_at_obj_in_light-Pillow-None-DeskLamp-323/trial_T20190908_053153_077977/video.mp4" target=“_blank”>video-53</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn right; bring the pillow to the
+lamp on the small table</td>
+<td  class="Table_Score">
+<img src="img_53_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_53_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_53_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+54</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/look_at_obj_in_light-Cloth-None-DeskLamp-303/trial_T20190908_170503_844252/video.mp4" target=“_blank”>video-54</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn around; walk forward to the lamp
+on the desk at the other
+end of the room</td>
+<td  class="Table_Score">
+<img src="img_54_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_54_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_54_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+55</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_heat_then_place_in_recep-AppleSliced-None-DiningTable-17/trial_T20190918_205656_000147/video.mp4" target=“_blank”>video-55</a></td>
+<td  class="NumPhrases">
+3</td>
+<td  class="Phrase">
+turn around; move to the stove; turn left to face the
+counter to the left of the
+stove</td>
+<td  class="Table_Score">
+<img src="img_55_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_55_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_55_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.69</td>
+</tr>
+<tr>
+<td  class="idx">
+56</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_heat_then_place_in_recep-AppleSliced-None-DiningTable-17/trial_T20190918_205656_000147/video.mp4" target=“_blank”>video-56</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn left; carry the knife to the
+white table in front of
+the window on your right</td>
+<td  class="Table_Score">
+<img src="img_56_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_56_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_56_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+57</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_heat_then_place_in_recep-AppleSliced-None-DiningTable-17/trial_T20190918_205656_000147/video.mp4" target=“_blank”>video-57</a></td>
+<td  class="NumPhrases">
+3</td>
+<td  class="Phrase">
+turn around; carry the knife to the
+other white table; has shelves below</td>
+<td  class="Table_Score">
+<img src="img_57_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_57_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_57_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.69</td>
+</tr>
+<tr>
+<td  class="idx">
+58</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_heat_then_place_in_recep-AppleSliced-None-DiningTable-17/trial_T20190918_205656_000147/video.mp4" target=“_blank”>video-58</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn back around; move to the table with the
+apple</td>
+<td  class="Table_Score">
+<img src="img_58_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_58_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_58_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+59</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_heat_then_place_in_recep-AppleSliced-None-DiningTable-17/trial_T20190918_205656_000147/video.mp4" target=“_blank”>video-59</a></td>
+<td  class="NumPhrases">
+3</td>
+<td  class="Phrase">
+turn right; carry the apple slice to
+the stove; head right again to the
+microwave</td>
+<td  class="Table_Score">
+<img src="img_59_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_59_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_59_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.70</td>
+</tr>
+<tr>
+<td  class="idx">
+60</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_heat_then_place_in_recep-AppleSliced-None-DiningTable-17/trial_T20190918_205656_000147/video.mp4" target=“_blank”>video-60</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+place the apple slice in
+the microwave; remove once heated</td>
+<td  class="Table_Score">
+<img src="img_60_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_60_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_60_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.77</td>
+</tr>
+<tr>
+<td  class="idx">
+61</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_heat_then_place_in_recep-AppleSliced-None-DiningTable-17/trial_T20190918_205656_000147/video.mp4" target=“_blank”>video-61</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn right; carry the apple slice to
+the white table with
+shelves below on your left</td>
+<td  class="Table_Score">
+<img src="img_61_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_61_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_61_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+62</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_heat_then_place_in_recep-Apple-None-DiningTable-26/trial_T20190907_060234_011675/video.mp4" target=“_blank”>video-62</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+turn left; go to the table</td>
+<td  class="Table_Score">
+<img src="img_62_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_62_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_62_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+<tr>
+<td  class="idx">
+63</td>
+<td  class="Video">
+<a href="https://ai2-vision-alfred-data-explorer.s3-us-west-2.amazonaws.com/pick_heat_then_place_in_recep-Apple-None-DiningTable-26/trial_T20190907_060234_011675/video.mp4" target=“_blank”>video-63</a></td>
+<td  class="NumPhrases">
+2</td>
+<td  class="Phrase">
+go right; bring the apple to the
+microwave</td>
+<td  class="Table_Score">
+<img src="img_63_score.png" height=200></td>
+<td  class="Table_Path">
+<img src="img_63_path.png" height=200></td>
+<td  class="Table_Path_GT">
+<img src="img_63_path_gt.png" height=200></td>
+<td  class="FinalScores">
+0.88</td>
+</tr>
+</tbody>
+</table>
+</div>
+<head>
+<title>Data visualization</title>
+<script src="list.min.js"></script>
+<script>
+var options = {valueNames: [ "idx","Video","NumPhrases","Phrase","Table_Score","Table_Path","Table_Path_GT","FinalScores" ]};
+var gameList = new List("viztable", options);
+</script>
+<style>
+.list {
+    font-family:sans-serif;
+  }
+  td {
+    padding:10px;
+    border:solid 1px #eee;
+    background: #e7e7e7;
+    font-size: 9px
+  }
+  thead td{
+    background: #28a8e0;
+    text-align: center;
+    color: #fff;
+  }
+  input {
+    border:solid 1px #ccc;
+    border-radius: 5px;
+    padding:7px 14px;
+    margin-bottom:10px
+  }
+  input:focus {
+    outline:none;
+    border-color:#aaa;
+  }
+  .search {
+    background-color: #eeeeee;
+    font-size: 15px;
+  }
+  .sort {
+    padding:2px 20px;
+    border-radius: 6px;
+    border:none;
+    display:inline-block;
+    color:#000;
+    text-decoration: none;
+    background-color: #9eff9c;
+    height:28px;
+    font-size: 15px;
+  }
+  .sort:hover {
+    text-decoration: none;
+    background-color: #25c766;
+  }
+  .sort:focus {
+    outline:none;
+  }
+  .sort:after {
+    display:inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    content:"";
+    position: relative;
+    top:-10px;
+    right:-5px;
+  }
+  .sort.asc:after {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    content:"";
+    position: relative;
+    top:4px;
+    right:-5px;
+  }
+  .sort.desc:after {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #fff;
+    content:"";
+    position: relative;
+    top:-4px;
+    right:-5px;
+  }
+</style>
+</head></html>
